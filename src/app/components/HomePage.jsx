@@ -34,11 +34,13 @@ const HomePage = () => {
         />
         <div style={{ width: '100%' }}>
           <Typography
-            variant="h2"
-            component="h2"
+            variant="h1"
+            component="h1"
             style={{
               position: 'absolute',
-              top: '50%',
+              width: '100%',
+              textAlign: 'center',
+              top: '45%',
               left: '50%',
               transform: 'translate(-50%, -50%)',
               color: 'white',
@@ -46,26 +48,31 @@ const HomePage = () => {
               letterSpacing: '0.07em',
               fontStyle: 'normal',
               fontWeight: '500',
-              fontSize: '48px',
+              fontSize: '42px',
               lineHeight: '129.5%',
             }}
           >
-            “Call upon Me, I will respond to you”
+            “CALL UPON ME, I WILL RESPOND TO YOU”
           </Typography>
+        </div>
+        <div>
           <Typography
             variant="p"
             component="p"
             style={{
-              paddingTop: '10%',
+              paddingTop: '6%',
               position: 'absolute',
+              width: '100%',
               top: '50%',
               left: '50%',
+              paddingLeft: '18%',
+              paddingRight: '18%',
               transform: 'translate(-50%, -50%)',
               color: 'white',
               fontFamily: 'Lato',
               letterSpacing: '0.07em',
               fontStyle: 'normal',
-              fontSize: '28px',
+              fontSize: '24px',
               lineHeight: '130%',
               textAlign: 'center',
             }}
