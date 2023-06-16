@@ -1,3 +1,4 @@
+import React from 'react'
 import { AppBar, Box, Toolbar, Typography, styled, Button } from '@mui/material'
 
 const StyledAppBar = styled(AppBar)`
@@ -50,7 +51,16 @@ const NavBar = () => {
       <Toolbar>
         <NavLeftWrap>
           <NavLeft>
-            <Typography>SOUTH BOSTON VA MASJID AND ISLAMIC CENTER</Typography>
+            <Typography
+              style={{
+                fontFamily: 'Cinzel',
+                fontSize: '24px',
+                paddingTop: '3%',
+                paddingBottom: '3%',
+              }}
+            >
+              SOUTH BOSTON VA MASJID AND ISLAMIC CENTER
+            </Typography>
           </NavLeft>
         </NavLeftWrap>
         <NavRight>

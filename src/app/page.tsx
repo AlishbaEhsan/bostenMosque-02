@@ -6,6 +6,8 @@ import Navbar from './components/NavBar'
 import HomePage from './components/HomePage'
 import WelcomePage from './components/WelcomePage'
 import PrayersTimePage from './components/PrayersTimePage'
+import PillarsPage from './components/PillarsPage'
+import ServicesPage from './components/ServicesPage'
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <HomePage />
       <WelcomePage />
       <PrayersTimePage />
+      <PillarsPage />
+      <ServicesPage />
     </>
   )
 }

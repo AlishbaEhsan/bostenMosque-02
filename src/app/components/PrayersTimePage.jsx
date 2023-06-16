@@ -1,10 +1,12 @@
 import React from 'react'
-// import Image from 'next/image'
+import Image from 'next/image'
 // import { Typography, Button, styled } from '@mui/material'
-
 import { Typography } from '@mui/material'
-// import wpImg from '../images/p2-img.png'
-// import bgStyle from '../images/Vector.png'
+import fImg from '../images/f.png'
+import zImg from '../images/z.png'
+import aImg from '../images/a.png'
+import mImg from '../images/m.png'
+import iImg from '../images/i.png'
 
 const PrayersTimePage = () => {
   return (
@@ -29,7 +31,7 @@ const PrayersTimePage = () => {
             letterSpacing: '0.07em',
             fontStyle: 'normal',
             fontWeight: '500',
-            fontSize: '36px',
+            fontSize: '58px',
             lineHeight: '129.5%',
             color: '#EFEFEF',
           }}
@@ -49,7 +51,7 @@ const PrayersTimePage = () => {
             color: 'white',
             letterSpacing: '0.07em',
             fontStyle: 'normal',
-            fontSize: '18px',
+            fontSize: '32px',
             lineHeight: '130%',
             color: '#EFEFEF',
           }}
@@ -67,7 +69,7 @@ const PrayersTimePage = () => {
             paddingLeft: '20%',
             flexDirection: 'column',
             flexWrap: 'wrap',
-            paddingTop: '5%',
+            paddingTop: '4%',
           }}
         >
           <div
@@ -76,15 +78,30 @@ const PrayersTimePage = () => {
               textAlign: 'center',
               flexDirection: 'row',
               margin: 'auto',
-              height: '80px',
-              width: '360px',
+              height: '120px',
+              width: '500px',
               background:
                 'linear-gradient(102.37deg, #EFEFEF 41.01%, rgba(253, 250, 250, 0.65) 129.4%)',
-              paddingTop: '1%',
+              paddingTop: '0.5%',
             }}
           >
-            <Typography>FAJAR</Typography>
-            <Typography>4:43 AM</Typography>
+            <Image
+              src={fImg.src}
+              height={70}
+              width={80}
+              alt="Fajar Image"
+              style={{
+                position: 'absolute',
+                display: 'block',
+                margin: 'auto',
+                marginLeft: '6%',
+                marginTop: '1%',
+              }}
+            />
+            <div style={{ paddingLeft: '20%' }}>
+              <Typography style={{ fontSize: '36px' }}>FAJAR</Typography>
+              <Typography style={{ fontSize: '32px' }}>4:43 AM</Typography>
+            </div>
           </div>
           <div
             style={{
@@ -92,16 +109,31 @@ const PrayersTimePage = () => {
               textAlign: 'center',
               flexDirection: 'row',
               margin: 'auto',
-              marginTop: '2%',
-              height: '80px',
-              width: '360px',
+              height: '120px',
+              width: '500px',
               background:
                 'linear-gradient(102.37deg, #EFEFEF 41.01%, rgba(253, 250, 250, 0.65) 129.4%)',
-              paddingTop: '1%',
+              marginTop: '2%',
+              paddingTop: '0.5%',
             }}
           >
-            <Typography>ZUHUR</Typography>
-            <Typography>12:10 PM</Typography>
+            <Image
+              src={zImg.src}
+              height={70}
+              width={80}
+              alt="Zuhur Image"
+              style={{
+                position: 'absolute',
+                display: 'block',
+                margin: 'auto',
+                marginLeft: '6%',
+                marginTop: '1%',
+              }}
+            />
+            <div style={{ paddingLeft: '20%' }}>
+              <Typography style={{ fontSize: '36px' }}>ZUHUR</Typography>
+              <Typography style={{ fontSize: '32px' }}>12:10 PM</Typography>
+            </div>
           </div>
           <div
             style={{
@@ -109,16 +141,31 @@ const PrayersTimePage = () => {
               textAlign: 'center',
               flexDirection: 'row',
               margin: 'auto',
-              marginTop: '2%',
-              height: '80px',
-              width: '360px',
+              height: '120px',
+              width: '500px',
               background:
                 'linear-gradient(102.37deg, #EFEFEF 41.01%, rgba(253, 250, 250, 0.65) 129.4%)',
-              paddingTop: '1%',
+              paddingTop: '0.5%',
+              marginTop: '2%',
             }}
           >
-            <Typography>ASR</Typography>
-            <Typography>4:31 PM</Typography>
+            <Image
+              src={aImg.src}
+              height={70}
+              width={80}
+              alt="Asr Image"
+              style={{
+                position: 'absolute',
+                display: 'block',
+                margin: 'auto',
+                marginLeft: '6%',
+                marginTop: '1%',
+              }}
+            />
+            <div style={{ paddingLeft: '20%' }}>
+              <Typography style={{ fontSize: '36px' }}>ASR</Typography>
+              <Typography style={{ fontSize: '32px' }}>4:31 PM</Typography>
+            </div>
           </div>
           <div
             style={{
@@ -126,16 +173,31 @@ const PrayersTimePage = () => {
               textAlign: 'center',
               flexDirection: 'row',
               margin: 'auto',
-              marginTop: '2%',
-              height: '80px',
-              width: '360px',
+              height: '120px',
+              width: '500px',
               background:
                 'linear-gradient(102.37deg, #EFEFEF 41.01%, rgba(253, 250, 250, 0.65) 129.4%)',
-              paddingTop: '1%',
+              paddingTop: '0.5%',
+              marginTop: '2%',
             }}
           >
-            <Typography>MAGHRIB</Typography>
-            <Typography>6:15 PM</Typography>
+            <Image
+              src={mImg.src}
+              height={70}
+              width={80}
+              alt="Magrib Image"
+              style={{
+                position: 'absolute',
+                display: 'block',
+                margin: 'auto',
+                marginLeft: '6%',
+                marginTop: '1%',
+              }}
+            />
+            <div style={{ paddingLeft: '20%' }}>
+              <Typography style={{ fontSize: '36px' }}>MAGHRIB</Typography>
+              <Typography style={{ fontSize: '32px' }}>6:15 PM</Typography>
+            </div>
           </div>
           <div
             style={{
@@ -143,17 +205,33 @@ const PrayersTimePage = () => {
               textAlign: 'center',
               flexDirection: 'row',
               margin: 'auto',
-              marginTop: '2%',
-              height: '80px',
-              width: '360px',
+              height: '120px',
+              width: '500px',
               background:
                 'linear-gradient(102.37deg, #EFEFEF 41.01%, rgba(253, 250, 250, 0.65) 129.4%)',
               paddingTop: '1%',
               marginBottom: '10%',
+              marginTop: '2%',
+              paddingTop: '0.5%',
             }}
           >
-            <Typography>ISHA</Typography>
-            <Typography>7:36 PM</Typography>
+            <Image
+              src={iImg.src}
+              height={70}
+              width={80}
+              alt="Isha Image"
+              style={{
+                position: 'absolute',
+                display: 'block',
+                margin: 'auto',
+                marginLeft: '6%',
+                marginTop: '1%',
+              }}
+            />
+            <div style={{ paddingLeft: '20%' }}>
+              <Typography style={{ fontSize: '36px' }}>ISHA</Typography>
+              <Typography style={{ fontSize: '32px' }}>7:36 PM</Typography>
+            </div>
           </div>
         </div>
       </div>

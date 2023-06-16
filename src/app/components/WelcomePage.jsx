@@ -18,6 +18,7 @@ const ReadMoreB = styled(Button)`
   background: linear-gradient(95.32deg, #3f8b4b 45.74%, #ecf4f4 179.28%);
   color: white;
   font-style: normal;
+  font-size: 18px;
 `
 
 const WelcomePage = () => {
@@ -45,8 +46,8 @@ const WelcomePage = () => {
             fontFamily: 'Cinzel',
             letterSpacing: '0.07em',
             fontStyle: 'normal',
-            fontWeight: '500',
-            fontSize: '40px',
+            fontWeight: '700',
+            fontSize: '58px',
             lineHeight: '129.5%',
             color: '#525252;',
           }}
@@ -59,15 +60,16 @@ const WelcomePage = () => {
           style={{
             fontFamily: 'Lato',
             paddingTop: '2%',
-            paddingLeft: '28%',
-            paddingRight: '28%',
+            paddingLeft: '18%',
+            paddingRight: '18%',
             textAlign: 'center',
             justifyContent: 'center',
             color: 'white',
             fontFamily: 'Lato',
             letterSpacing: '0.07em',
             fontStyle: 'normal',
-            fontSize: '20px',
+            fontWeight: '500',
+            fontSize: '32px',
             lineHeight: '130%',
             textAlign: 'center',
             color: '#525252;',
@@ -91,8 +93,8 @@ const WelcomePage = () => {
         </ReadMoreB>
         <Image
           src={wpImg.src}
-          height={300}
-          width={500}
+          height={424}
+          width={756}
           alt="Your Image"
           style={{
             display: 'block',
