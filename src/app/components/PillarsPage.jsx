@@ -91,6 +91,7 @@ const PillarsPage = () => {
           style={{
             paddingTop: '8%',
             display: 'flex',
+            flexWrap: 'wrap',
             justifyContent: 'center',
             margin: 'auto',
           }}
@@ -115,6 +116,7 @@ const PillarsPage = () => {
             alt="Your Image"
             style={{
               marginLeft: '6%',
+              marginTop: 'auto',
             }}
           />
         </div>
@@ -122,6 +124,7 @@ const PillarsPage = () => {
           style={{
             paddingTop: '2%',
             display: 'flex',
+            flexWrap: 'wrap',
             justifyContent: 'center',
             margin: 'auto',
             marginTop: '5%',
